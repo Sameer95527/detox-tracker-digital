@@ -1,29 +1,33 @@
-# 📱 Digital Detox Tracker
-https://<your-username>.github.io/detox-tracker-digital
-The **Digital Detox Tracker** helps users reduce screen time by rewarding them with "Focus Coins" for staying away from their devices. The longer you stay focused, the more coins you earn. A simple yet impactful tool for building better digital habits!
+# 🧠 Digital Detox Tracker
+
+A fun and productivity-focused website to help users reduce screen time and take on digital detox challenges. This tool motivates users by tracking their detox goals, providing feedback, and encouraging healthier digital habits.
+
+🔗 **Live Site:** [https://sameer95527.github.io/detox-tracker-digital/](https://sameer95527.github.io/detox-tracker-digital/)
 
 ---
 
 ## 🚀 Features
 
-- 🧘‍♂️ **Detox Timer** — Tracks your offline time and calculates rewards
-- 🪙 **Coin System** — Earn 1 Focus Coin per minute of detox
-- 🧠 **Motivational Quotes** — Randomly shown during detox mode
-- 🏆 **Leaderboard** — Shows top users based on detox time and coins earned
-- 💾 **MongoDB Backend** — All sessions stored and fetched via backend API
+- ✅ Track daily digital detox challenges
+- 📈 Visual progress feedback
+- 🕒 Timer or task-based tracking
+- 🌙 Light and dark themes *(if implemented)*
+- 🔒 No login required — privacy-friendly and easy to use
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
-| Layer       | Technology            |
-|-------------|------------------------|
-| Frontend    | HTML, CSS, JavaScript  |
-| Backend     | Node.js, Express.js    |
-| Database    | MongoDB Atlas          |
-| Hosting     | GitHub Pages (Frontend), Render/Railway (Backend) |
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Backend:** Basic logic or API (if applicable, in `/backend` folder)
 
 ---
 
-## 📂 Folder Structure
+## 📦 Folder Structure
 
+```bash
+├── index.html       # Main HTML file
+├── style.css        # Styling and layout
+├── script.js        # Client-side JavaScript logic
+├── backend/         # (Optional) Backend code or API
+└── README.md        # Project overview and documentation
