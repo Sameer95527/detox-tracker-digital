@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Detox Tracker</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="layout">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h1>Detox Challenge</h1>
+      <div class="buttons">
+        <button id="startBtn">Start Detox</button>
+        <button id="stopBtn" disabled>End Detox</button>
+        <button id="toggleLeaderboardBtn">Hide Leaderboard</button>
+      </div>
+      <div class="quote-box" id="quoteBox">
+        <!-- Quote will appear here -->
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="stats">
+        <div class="card">
+          <h3>🔆 Focus Coins</h3>
+          <p id="coins">0</p>
+        </div>
+        <div class="card">
+          <h3>⏱ Last Session</h3>
+          <p id="lastSession">--</p>
+        </div>
+      </div>
+      <div class="timer-section">
+        <h2 id="timer">00:00:00</h2>
+        <p class="detox-status">You're in Detox Mode 💪</p>
+      </div>
+    </div>
+
+    <!-- Leaderboard -->
+    <div class="leaderboard">
+      <h2>🏆 Leaderboard</h2>
+      <table id="leaderboardTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Username</th>
+            <th>Coins</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboardBody">
+          <!-- JS will populate this -->
+        </tbody>
+      </table>
+
+      <!-- Optional username input -->
+      <!-- <input type="text" id="usernameInput" placeholder="Enter your name" /> -->
+
+      <button id="submitBtn">Submit Challenge</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
