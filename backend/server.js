@@ -9,10 +9,11 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://sameershaiks:3t9SjdK9XZVgnwjD@cluster0.ei3n8sk.mongodb.net/detoxTracker?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
+
 .then(() => {
   console.log('✅ MongoDB Connected');
   app.listen(PORT, () => {
