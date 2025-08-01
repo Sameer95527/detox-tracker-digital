@@ -1,5 +1,5 @@
 # 📱 Digital Detox Tracker
-https://<your-username>.github.io/digital-detox-tracker
+https://<your-username>.github.io/detox-tracker-digital
 The **Digital Detox Tracker** helps users reduce screen time by rewarding them with "Focus Coins" for staying away from their devices. The longer you stay focused, the more coins you earn. A simple yet impactful tool for building better digital habits!
 
 ---
